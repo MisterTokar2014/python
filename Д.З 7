@@ -19,5 +19,5 @@ while True:
         for i, wish in enumerate(wishlist, start=1):
             print(f"{i}.{wish}")
         delete_index = int(input(f"{name},введите номер желания для удаления")) - 1
-        wishlist.pop(int(delete_index))
+        wishlist.pop(delete_index)
     input("Нажмите Enter, чтобы продолжить")
