@@ -23,3 +23,5 @@ elif h == "слова, числа, знаки препинания":
     print(random.choice(om), random.choice(todo_list), random.choice(om), random.choice(prepinanie))
 elif h == "числа, знаки препинания":
     print(random.choice(todo_list), random.choice(prepinanie))
+if h == "слова, заглавные буквы":
+    print(random.choice(om), random.choice(u_k))
