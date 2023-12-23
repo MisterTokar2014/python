@@ -14,6 +14,17 @@ todo_list = [
 ]
 todo_list.append("Покушать")
 todo_list.insert(0, "Погулять")
+
+
+
+
+
+
+
+
+
+
+
 todo_list.remove("Погулять")
 todo_list.pop(4)
 
