@@ -37,3 +37,5 @@ while True:
     if p == "думаю нет":
         print("сбой системы")
         break
+    if __name__ == "__name__":
+        magic()
