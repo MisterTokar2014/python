@@ -88,8 +88,5 @@ while True:
         if git == "6":
             rain()
         if git == "7":
-            sain()
-        
-            
-            
+            sain()  
     input("нажмите энтер, что-бы продолжить")
