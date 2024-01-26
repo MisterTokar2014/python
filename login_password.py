@@ -2,7 +2,7 @@ from calculator import rain
 from magic_ball import main
 from cyberpunk_game import ain
 from password_generator import sain
-from wishlist_app import main
+from wishlist_app import dain
 from robotcraft import fain
 from newyear import gain
 import time
