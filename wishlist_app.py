@@ -1,4 +1,4 @@
-def main():
+def dain():
     print("Это приложение список желаний")
     name = input("Как к вам можно обращатся:")
     wishlist=[]
