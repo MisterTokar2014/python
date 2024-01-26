@@ -1,4 +1,4 @@
-def main():
+def ain():
     n = 0
     import time
     import webbrowser
