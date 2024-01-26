@@ -1,4 +1,4 @@
-from calculator import main
+from calculator import rain
 from magic_ball import main
 from cyberpunk_game import ain
 from password_generator import main
