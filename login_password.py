@@ -1,10 +1,10 @@
-import calculator
-import magic_ball
-import cyberpunk_game
-import password_generator
-import wishlist_app
-import robotcraft
-import newyear
+from calculator import main
+from magic_ball import main
+from cyberpunk_game import main
+from password_generator import main
+from wishlist_app import main
+from robotcraft import main
+from newyear import main
 import time
 def sing_up():
     login = input("придумайте логин: ")
