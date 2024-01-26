@@ -1,4 +1,4 @@
-def main:
+def rain:
     name = input("введите ваше имя ")
     def  plus(x, y):
         return x + y
