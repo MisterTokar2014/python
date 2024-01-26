@@ -3,7 +3,7 @@ from magic_ball import main
 from cyberpunk_game import ain
 from password_generator import main
 from wishlist_app import main
-from robotcraft import main
+from robotcraft import fain
 from newyear import main
 import time
 def sing_up():
