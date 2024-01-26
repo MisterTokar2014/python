@@ -1,4 +1,4 @@
-def main():
+def gain():
     # 20 (что-то новогоднее)
     import webbrowser
     print("До нового года остался 1 день")
