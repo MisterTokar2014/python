@@ -4,7 +4,7 @@ from cyberpunk_game import ain
 from password_generator import main
 from wishlist_app import main
 from robotcraft import fain
-from newyear import main
+from newyear import gain
 import time
 def sing_up():
     login = input("придумайте логин: ")
