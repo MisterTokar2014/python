@@ -1,4 +1,4 @@
-def main():
+def fain():
     
     import random
     inventory = []

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 def  plus(x, y):
     return x + y
@@ -7,6 +8,18 @@ def  delit(x, y):
     return x / y
 def  umnohit(x, y):
     return(x * y)
+=======
+def rain:
+    name = input("введите ваше имя ")
+    def  plus(x, y):
+        return x + y
+    def  minus(x, y):
+        return x - y
+    def  delit(x, y):
+        return x / y
+    def  umnohit(x, y):
+        return(x * y)
+>>>>>>> b1dc623a9604ba3ecb6e478338d5023377b9fc11
 
 
 def input_number(input_frese):
