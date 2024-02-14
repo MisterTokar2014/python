@@ -1,0 +1,10 @@
+class PhraseDecorator:
+    def decorate(self, phrase):
+        line = '-' * (len(phrase) + 4)
+        print(line)
+        print('|', phrase, '|')
+        print(line)
+
+
+decorator = PhraseDecorator()
+decorator.decorate('Я люблю ООП')
