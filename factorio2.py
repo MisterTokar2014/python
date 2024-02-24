@@ -46,5 +46,6 @@ def factorio():
             break
         else:
             print("\nВыберите корректное действие!\n")
+        input("Нажмите Enter, чтобы продолжить ")
 
 factorio()
