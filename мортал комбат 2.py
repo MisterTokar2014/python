@@ -34,7 +34,7 @@ class Fighter:
                 enumy1.hp -= 34776677667565423456789098765
                 enumy5.hp -= 2
                 print("упал метеорит")
-            if sobitie == "ничего":
+            if sobitie == "ничего"*3:
                 print("ничего не произошло")
             if sobitie == "восстановление жизней":
                 enumy1.hp = 100
