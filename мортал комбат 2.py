@@ -1,4 +1,3 @@
-
 import time
 import random
 
@@ -9,8 +8,7 @@ class Fighter:
         self.hp = 100
         self.name_fat = name_fatslity
         self.fat_switsh = True
-        a = ["падение метиорита", "ничего" * 3, "восстановление жизней"]
-        self.sobytye = random.choice(a)
+        
 
     def attaka(self, attaced_fighter):
         if self.fat_switsh:
@@ -25,21 +23,16 @@ class Fighter:
     def say_info(self):
         print(f"У персонажа {self.name} {self.hp} ед. здоровья")
 
-    def sobytye(self, sobitie):
-        def attaka(self, sobitie):
-            self.attaka(sobitie)
-            sobitie = ["падение метиорита", "ничего" * 3, "восстановление жизней"]
-            random.choice(sobitie)
-            if sobitie == "падение метиорита":
-                enumy1.hp -= 34776677667565423456789098765
-                enumy5.hp -= 2
-                print("упал метеорит")
-            if sobitie == "ничего"*3:
-                print("ничего не произошло")
-            if sobitie == "восстановление жизней":
-                enumy1.hp = 100
-
-
+    def sobytye(self):
+        sobities = ["падение метиорита", "восстановление жизней"] + ["ничего" ] * 3
+        sobitie = random.choice(sobities)
+        if sobitie == "падение метиорита":
+            self.hp -= 20
+            print("упал метеорит")
+        if sobitie == "ничего"*3:
+            print("ничего не произошло")
+        if sobitie == "восстановление жизней":
+            self.hp = 100
 
     def fatality(self, attaced_fighter):
         if self.hp < 15:
@@ -52,6 +45,20 @@ class Fighter:
         if self.hp < 5 and random.randint(1, 2) == 1:
             print(f"{self.name} совершил харакири")
             self.hp = 0
+    
+    def golod(self, folod, enumy1):
+        folod = 100
+        u = random.choice(["яблоко", "палка", "уголь"])
+        а = input("вы хотите поесть? да или нет?")
+        if a  == "да":
+            if u == "яблоко":
+                print("вы поели")
+                folod+=10
+            if folod > 100:
+                self.folod = 100
+            if folod <= 0:
+                print("вы истощены")
+                exit()
 
 
 filter1 = Fighter("Скорпион", "Скорпионья суператака")
@@ -76,8 +83,9 @@ while True:
     enumy5.attaka(enumy1)
     enumy1.say_info()
     enumy5.say_info()
-    def sob(sobytye):
-        print(sobytye)
+    enumy1.sobytye()
+    enumy5.sobytye()
+    enumy1.golod()
     raund += 1
     time.sleep(1.5)
     print(f"{raund} раунд")
